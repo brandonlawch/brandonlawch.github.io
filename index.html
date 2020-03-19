@@ -1,4 +1,9 @@
 <!doctype html>
+<script>
+    function thankyou(){
+        alert("Thankyou for messaging!");
+        }
+</script>
 <html lang="en-US">
 
 <head>
@@ -15,6 +20,7 @@
 </head>
 
 <body class="home page-template page-template-template-layout-builder page-template-template-layout-builder-php page page-id-471">
+<?php if($_GET(mail)=="sent"){echo"<script>thankyou()</script>";}?>
     <div class="preloader">
         <div class="centrize full-width">
             <div class="vertical-center">
@@ -28,7 +34,6 @@
     <div class="container">
         <header class="header">
             <div class="head-top">
-                <a href="#" class="menu-btn"><span></span></a>
                 <div class="logo hover-masks-logo">
                     <!--<a href="Brandon Law Chun Hei _ CV.pdf">-->
                     <span class="mask-lnk">
@@ -52,7 +57,7 @@
                     <div class="vertical-center">
                         <div class="started-content">
                             <h1 class="h-title">Hello, I’m <strong>Brandon Law</strong> Chun Hei, a student at HKUST and
-                                a programming lover.</h1>
+                                a technology lover.</h1>
                             <div class="h-subtitles">
                                 <div class="h-subtitle typing-subtitle">
                                     <p>I <strong>code</strong></p>
@@ -72,9 +77,7 @@
                         <img src="Picture\chblaw pic2.jpg" />
                     </div>
                     <div class="desc">
-                        <p>Hello! I’m Daniel Curry. Web designer from USA, California, San Francisco. I have rich
-                            experience in web site design and building, also I am good at wordpress. I love to talk with
-                            you about our unique.</p>
+                        <p>Hello! I’m Brandon Law. I am currently a freshman at HKUST, studying Integrative Systems and Design, going through the computer engineering stream. I have great passion in the tech world, from coding to robotics, from IoT to web science.</p>
                         <div class="info-list">
                             <ul>
                                 <li><strong>Age:</strong> 18</li>
@@ -162,7 +165,7 @@
                                 </div>
                                 <div class="text">
                                     Joining the Robomaster Competition.
-                                    <br><a href="https://www.robomaster.com/en-US">Learn More</a>
+                                    <br><a href="https://www.robomaster.com/en-US">More about Robomaster</a>
                                 </div>
                             </div>
                             <div class="resume-item content-box active">
@@ -210,70 +213,45 @@
             <div class="content">
                 <div class="title">
                     <div class="title_inner">
-                        Design Skills
+                        Knowledge
                     </div>
                 </div>
-                <div class="skills content-box percent">
+                <div class="skills content-box list">
                     <ul>
                         <li>
-                            <div class="name">Web Design</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;Microsoft Office Specialist (Word and PowerPoint)</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                         <li>
-                            <div class="name">Illustrations</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;Dynamic webpage with MySQL</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                         <li>
-                            <div class="name">Photoshop</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;3D design with Solidworks</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                         <li>
-                            <div class="name">Graphic Design</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;Video making</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">
-                        Languages Skills
-                    </div>
-                </div>
-                <div class="skills content-box dotted">
-                    <ul>
-                        <li>
-                            <div class="name">English</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                         <li>
-                            <div class="name">German</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;Sound engineering</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                         <li>
-                            <div class="name">Italian</div>
+                            <div class="name"><img src="Picture/tick.png" height="22" width="22" align="top">&nbsp;Product design and developement</div>
                             <div class="progress ">
-                                <div class="percentage" style="width: 55%;"> <span class="percent">55%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">French</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                     </ul>
@@ -290,7 +268,7 @@
                 <div class="skills content-box circles">
                     <ul>
                         <li>
-                            <div class="name">WordPress</div>
+                            <div class="name">HTML / CSS</div>
                             <div class="progress p90">
                                 <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
                                 <span>90%</span>
@@ -304,78 +282,17 @@
                             </div>
                         </li>
                         <li>
-                            <div class="name">Angular / JavaScript</div>
+                            <div class="name">JavaScript</div>
                             <div class="progress p85">
                                 <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
-                                <span>85%</span>
+                                <span>80%</span>
                             </div>
                         </li>
                         <li>
-                            <div class="name">HTML / CSS</div>
+                            <div class="name">C++</div>
                             <div class="progress p95">
                                 <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
                                 <span>95%</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">
-                        Knowledge
-                    </div>
-                </div>
-                <div class="skills content-box list">
-                    <ul>
-                        <li>
-                            <div class="name">Website hosting</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">iOS and android apps</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Create logo design</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Design for print</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Modern and mobile-ready</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Advertising services include</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Graphics and animations</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Search engine marketing</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
                             </div>
                         </li>
                     </ul>
@@ -393,60 +310,52 @@
                     <div class="service-col">
                         <div class="service-item content-box">
                             <div class="icon">
-                                <span class="ion fas fa-basketball-ball">
-
-                                </span>
+                                <img src="Picture/badminton.png" height="35" width="35">
                             </div>
                             <div class="name">
-                                Basketball
+                                Badminton
                             </div>
                             <div class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                I played for my school during grade 3-11, and won the inter-school championship in 2017.
                             </div>
                         </div>
                     </div>
                     <div class="service-col">
                         <div class="service-item content-box">
                             <div class="icon">
-                                <span class="ion fas fa-fire">
-
-                                </span>
+                                <img src="Picture/technology.png" height="35" width="35">
                             </div>
                             <div class="name">
-                                Camping
+                                Technology
                             </div>
                             <div class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                I love to read anything about technology and is always on the hunt for the latest information!
                             </div>
                         </div>
                     </div>
                     <div class="service-col">
                         <div class="service-item content-box">
                             <div class="icon">
-                                <span class="ion fas fa-gamepad">
-
-                                </span>
+                                <img src="Picture/gaming.png" height="35" width="35">
                             </div>
                             <div class="name">
                                 Gaming
                             </div>
                             <div class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Of course I love playing games! From computer games like Apex Legends to board and card games.
                             </div>
                         </div>
                     </div>
                     <div class="service-col">
                         <div class="service-item content-box">
                             <div class="icon">
-                                <span class="ion fas fa-music">
-
-                                </span>
+                                <img src="Picture/music.png" height="35" width="35">
                             </div>
                             <div class="name">
                                 Music
                             </div>
                             <div class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Coding is always nice with a bit of music. Fun fact: I play drums, guitar, and handbells. And I also do sound engineering.
                             </div>
                         </div>
                     </div>
@@ -457,64 +366,43 @@
             <div class="content">
                 <div class="title">
                     <div class="title_inner">
-                        Contacts
+                        Connections
                     </div>
                 </div>
                 <div class="service-items">
                     <div class="service-col">
                         <div class="service-item content-box">
-                            <div class="icon">
-                                <span class="ion fas fa-phone">
-
-                                </span>
-                            </div>
+                            <center><img src="Picture/LinkedIn.png" height="35" width="35"></center>
                             <div class="name">
-                                Phone
+                                LinkedIn
                             </div>
                             <div class="text">
-                                <p>+ (231) 456 67 89</p>
+                                <p><a href="https://www.linkedin.com/in/brandon-law-140029172">View My Profile</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="service-col">
                         <div class="service-item content-box">
-                            <div class="icon">
-                                <span class="ion fas fa-at"></span>
+                            <center><img src="Picture/GitHub.png" height="35" width="35"></center>
+                            <div class="name">
+                                GitHub
                             </div>
+                            <div class="text">
+                                <p><a href="https://github.com/brandonlawch">View My Profile</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <center><div class="service-col">
+                        <div class="service-item content-box">
+                            <center><img src="Picture/Email.png" height="35" width="35"></center>
                             <div class="name">
                                 Email
                             </div>
                             <div class="text">
-                                <p><a href="mailto:alejandroa@gmail.com">alejandroa@gmail.com</a></p>
+                                <p><a href="mailto:lawchbrandon@gmail.com">lawchbrandon@gmail.com</a></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon">
-                                <span class="ion fas fa-flag"></span>
-                            </div>
-                            <div class="name">
-                                Address
-                            </div>
-                            <div class="text">
-                                <p>2621 W Pico Blvd, Los Angeles</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon">
-                                <span class="ion fas fa-user"></span>
-                            </div>
-                            <div class="name">
-                                Freelance Available
-                            </div>
-                            <div class="text">
-                                <p>I am available for Freelance hire</p>
-                            </div>
-                        </div>
-                    </div>
+                    </div></center>
                 </div>
             </div>
         </div>
@@ -522,7 +410,7 @@
             <div class="content">
                 <div class="title">
                     <div class="title_inner">
-                        Hire me
+                        Message me
                     </div>
                 </div>
                 <div class="contact_form content-box">
@@ -530,34 +418,20 @@
                         <div class="screen-reader-response">
 
                         </div>
-                        <!--<?php
-$action=$_REQUEST['action'];
-if ($action=="")
-    {
-    ?>
-                        <form action="" class="wpcf7-form" method="POST" enctype="multipart/form-data">
-                            <div style="display: none;">
-                                <input type="hidden" name="action" value="submit">
-                            </div>
+                        <form action="mail.php" name="contact form" class="wpcf7-form" method="POST">
                             <div class="group-val">
                                 <span class="wpcf7-form-control-wrap your-name">
-                                    <input name="name" type="text" value="" size="30"
-                                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                        placeholder="Name" />
+                                    <input name="name" type="text" value="" size="30" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name" />
                                 </span>
                             </div>
                             <div class="group-val">
                                 <span class="wpcf7-form-control-wrap your-email">
-                                    <input name="email" type="text" value="" size="30"
-                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                        placeholder="Email" />
+                                    <input name="email" type="text" value="" size="30" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" placeholder="Your Email" />
                                 </span>
                             </div>
                             <div class="group-val">
                                 <span class="wpcf7-form-control-wrap your-email">
-                                    <textarea name="message" rows="10" cols="40"
-                                        class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
-                                        placeholder="Message"></textarea>
+                                    <textarea name="message" rows="10" cols="40" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" placeholder="Message"></textarea>
                                 </span>
                             </div>
                             <div class="group-bts">
@@ -566,27 +440,7 @@ if ($action=="")
                                     <span class="lnk">Send Message</span>
                                 </button>
                             </div>
-                            <div class="wpcf7-response-output wpcf7-display-none"></div>
                         </form>
-                        <?php
-    } 
-else 
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=="")||($email=="")||($message==""))
-        {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-        }
-    else{        
-        $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-        mail("lawchbrandon@gmail.com", $subject, $message, $from);
-        echo "Email sent!";
-        }
-    }  
-?>-->
                     </div>
                 </div>
             </div>
@@ -608,7 +462,7 @@ else
         </div>
     </div>
     </div>
-    <script defer src="autoptimize.js"></script>
+<script defer src="autoptimize.js"></script>
 </body>
 
 </html>
