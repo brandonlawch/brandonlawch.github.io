@@ -22,6 +22,6 @@ if( empty($errors)){
     $headers = "From: $myemail\n";
     $headers .= "Reply-To: $email_address";
     mail($to,$email_subject,$email_body,$headers);
-    header('Location: index.html?mail=sent');
+    header('Location: index.html');
     }
 ?>
